@@ -20,7 +20,7 @@ const shipporiMinchoB1 = Shippori_Mincho_B1({
 });
 
 export const metadata: Metadata = {
-  title: "Monnihon — Японы хэл сурах платформ",
+  title: "Monnihon — Япон хэл сурах платформ",
   description: "Япон хэлийг эх хэлээрээ сур. Цагаан толгойгоос эхлээд өдөр тутмын яриа хүртэл сурах шинэ ертөнц тун удахгүй нээгдэнэ.",
 };
 

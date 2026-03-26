@@ -11,7 +11,7 @@ export default function Home() {
     // SAKURA SYSTEM
     const sakuraRoot = document.getElementById('sakura-root');
     if (!sakuraRoot) return;
-    
+
     const createPetal = () => {
       if (sakuraRoot.children.length > 20) return;
       const petal = document.createElement('div');
@@ -25,7 +25,7 @@ export default function Home() {
       sakuraRoot.appendChild(petal);
       setTimeout(() => petal.remove(), 15000);
     };
-    
+
     const interval = setInterval(createPetal, 1000);
 
     // REVEAL SYSTEM
